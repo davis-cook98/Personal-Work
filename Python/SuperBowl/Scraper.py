@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-# Websites have identical structure so abstraction
-# was used.
+# Websites have identical structure so abstraction was used.
+
 def scraper(url, filename):
     html = requests.get(url)
     soup = BeautifulSoup(html.text, "html.parser")
