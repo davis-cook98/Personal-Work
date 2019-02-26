@@ -31,3 +31,4 @@ def scraper(url, filename):
 
 scraper("http://www.espn.com/nfl/superbowl/history/winners", "winners.csv")
 scraper("http://www.espn.com/nfl/superbowl/history/mvps", "mvp.csv")
+scraper("http://www.espn.com/college-football/statistics/player/_/stat/receiving/qualified/false", "test.csv")
